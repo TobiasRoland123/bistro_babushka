@@ -40,7 +40,7 @@ function vis() {
   retter.forEach((ret) => {
     if (filter == ret.kategori || filter == "alle") {
       const klon = template.cloneNode(true);
-      // klon.querySelector("img").src = ret.billede;
+      klon.querySelector("img").src = "billeder/" + ret.billede + ".jpg";
       klon.querySelector(".navn").textContent = ret.navn;
       klon.querySelector(".info").textContent = ret.kategori + " | " + ret.oprindelsesregion;
       klon.querySelector(".kortbeskrivelse").textContent = ret.kortbeskrivelse;
