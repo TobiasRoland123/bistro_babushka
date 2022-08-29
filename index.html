@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bristro Babushka</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Alle</h1>
+    <nav>
+      <button data-kategori="alle" class="valgt">alle</button>
+      <button data-kategori="forretter">forretter</button>
+      <button data-kategori="drikkevarer">drikkevarer</button>
+      <button data-kategori="hovedretter">hovedretter</button>
+      <button data-kategori="desserter">desserter</button>
+      <button data-kategori="sideorders">sideorders</button>
+    </nav>
+    <main>
+      <section id="indhold"></section>
+    </main>
+
+    <template>
+      <article>
+        <img src="" alt="" />
+        <h2 class="navn"></h2>
+        <p class="info"></p>
+        <p class="kortbeskrivelse"></p>
+        <p class="pris"></p>
+      </article>
+    </template>
+    <script src="script.js"></script>
+  </body>
+</html>

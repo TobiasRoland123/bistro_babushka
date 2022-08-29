@@ -1,0 +1,14 @@
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.valgt {
+  background-color: red;
+}
