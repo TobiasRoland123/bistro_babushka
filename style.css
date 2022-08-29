@@ -7,8 +7,13 @@ nav {
 section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 3%;
 }
 
 .valgt {
   background-color: red;
+}
+
+img {
+  max-width: 100%;
 }
