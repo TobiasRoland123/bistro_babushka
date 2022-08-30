@@ -4,6 +4,10 @@ nav {
   gap: 2%;
 }
 
+main {
+  margin: 5% 5%;
+}
+
 section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
