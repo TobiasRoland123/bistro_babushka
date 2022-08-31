@@ -41,6 +41,10 @@ main {
   margin: 5% 5%;
 }
 
+main {
+  margin: 5% 5%;
+}
+
 section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));

@@ -48,6 +48,10 @@ function vis() {
       klon.querySelector(".pris").textContent = "Pris: " + ret.pris + ",-";
 
       klon.querySelector("article").addEventListener("click", () => visDetaljer(ret));
+<<<<<<< HEAD
+=======
+
+>>>>>>> de2c60be8602172b1136a4eece46c69b94b4c7c2
       main.appendChild(klon);
     }
   });
@@ -55,6 +59,7 @@ function vis() {
 
 function visDetaljer(retten) {
   console.log(retten.navn);
+<<<<<<< HEAD
   popup.style.display = "flex";
   popup.querySelector("img").src = "billeder/" + retten.billednavn + "-md.jpg";
   popup.querySelector(".titel").textContent = retten.navn;
@@ -63,6 +68,19 @@ function visDetaljer(retten) {
   popup.querySelector(".pris").textContent = "Pris: " + retten.pris + ",-";
 
   document.querySelector("#luk").addEventListener("click", () => (popup.style.display = "none"));
+=======
+
+  location.href = "02-detalje.html?id=" + retten._id;
+
+  // popup.style.display = "flex";
+  // popup.querySelector("img").src = "billeder/" + retten.billednavn + "-md.jpg";
+  // popup.querySelector(".titel").textContent = retten.navn;
+  // popup.querySelector(".korttekst").textContent = retten.langbeskrivelse;
+  // popup.querySelector(".typeogland").textContent = retten.kategori + " | " + retten.oprindelsesregion;
+  // popup.querySelector(".pris").textContent = "Pris: " + retten.pris + ",-";
+
+  // document.querySelector("#luk").addEventListener("click", () => (popup.style.display = "none"));
+>>>>>>> de2c60be8602172b1136a4eece46c69b94b4c7c2
 }
 
 hentData();
