@@ -122,7 +122,9 @@ img {
   cursor: pointer;
 }
 
-#popup article {
+#popup article ::-webkit-scrollbar {
+  /* chrome*/
+  display: none;
   width: 80vw;
   margin: 4rem auto;
   border-radius: 25px;
@@ -134,10 +136,6 @@ img {
   overflow: scroll;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE and Edge */
-}
-::-webkit-scrollbar {
-  /* chrome*/
-  display: none;
 }
 
 #popup article p {
