@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <nav class="navbar">
+      <h1>Bistro</h1>
+      <img src="logo/export/Artboard 1.svg" alt="barbuskaLady" />
+      <h1>Barbuska</h1>
+    </nav>
+
     <article>
-      <img src="" alt="" />
+      <img class="retbillede" src="" alt="" />
       <h2 class="titel"></h2>
       <p class="korttekst"></p>
       <p class="typeogland"></p>
@@ -38,7 +45,7 @@
       }
 
       function vis() {
-        document.querySelector("img").src = "billeder/" + ret.billednavn + "-md.jpg";
+        document.querySelector(".retbillede").src = "billeder/" + ret.billednavn + "-md.jpg";
         document.querySelector(".titel").textContent = ret.navn;
         document.querySelector(".korttekst").textContent = ret.langbeskrivelse;
         document.querySelector(".typeogland").textContent = ret.kategori + " | " + ret.oprindelsesregion;
