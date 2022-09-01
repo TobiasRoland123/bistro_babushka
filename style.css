@@ -122,9 +122,12 @@ img {
   cursor: pointer;
 }
 
-#popup article ::-webkit-scrollbar {
+.article::-webkit-scrollbar {
   /* chrome*/
   display: none;
+}
+
+#popup article {
   width: 80vw;
   margin: 4rem auto;
   border-radius: 25px;
