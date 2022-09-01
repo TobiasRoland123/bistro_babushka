@@ -134,6 +134,9 @@ img {
   overflow: scroll;
   scrollbar-width: none; /* Firefox */
 }
+::-webkit-scrollbar {
+  display: none;
+}
 
 #popup article p {
   max-width: 50ch;
