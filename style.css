@@ -3,15 +3,11 @@
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 body {
   background-color: rgb(176, 148, 139);
 }
 
 .container {
-=======
-.navbar {
->>>>>>> 07d8007418f7bd3143666a36be630f454f58369e
   margin: 2% 2%;
   justify-content: center;
   align-items: center;
@@ -54,7 +50,6 @@ nav button:hover {
   text-decoration: underline;
 }
 
-<<<<<<< HEAD
 main {
   max-width: 1450px;
   margin: 5% auto;
@@ -62,8 +57,6 @@ main {
   justify-content: center; */
 }
 
-=======
->>>>>>> 07d8007418f7bd3143666a36be630f454f58369e
 section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
