@@ -6,26 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bristro Babushka</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet" />
   </head>
   <body>
-<<<<<<< HEAD
-    
+    <header>
+      <div class="container">
+        <h1>Bistro</h1>
+        <img src="logo/export/Artboard 1.svg" alt="barbuskaLady" />
+        <h1>Barbuska</h1>
+      </div>
+    </header>
 
-    <nav class="navbar">
-      <h1>Bistro</h1>
-      <img src="logo/export/Artboard 1.svg" alt="barbuskaLady">
-      <h1>Barbuska</h1>
-    </nav>
-=======
-    <h1>Barbuska</h1>
->>>>>>> de2c60be8602172b1136a4eece46c69b94b4c7c2
     <nav>
-      <button data-kategori="alle" class="valgt">alle</button>
-      <button data-kategori="forretter">forretter</button>
-      <button data-kategori="drikkevarer">drikkevarer</button>
-      <button data-kategori="hovedretter">hovedretter</button>
-      <button data-kategori="desserter">desserter</button>
-      <button data-kategori="sideorders">sideorders</button>
+      <button data-kategori="alle" class="valgt">Alle</button>
+      <button data-kategori="forretter">Forretter</button>
+      <button data-kategori="drikkevarer">Drikkevarer</button>
+      <button data-kategori="hovedretter">Hovedretter</button>
+      <button data-kategori="desserter">Desserter</button>
+      <button data-kategori="sideorders">Sideorders</button>
     </nav>
     <main>
       <section id="indhold"></section>
@@ -34,25 +34,25 @@
     <template>
       <article>
         <img src="" alt="" />
-        <h2 class="navn"></h2>
-        <p class="info"></p>
-        <p class="kortbeskrivelse"></p>
-        <p class="pris"></p>
+        <div class="indhold">
+          <h2 class="navn"></h2>
+          <p class="kortbeskrivelse"></p>
+          <p class="info"></p>
+          <p class="pris"></p>
+        </div>
       </article>
     </template>
-<section id="popup">
-  <div id="luk"><div>&#x2715</div></div>
-
-  <article>
-    <img src="" alt="">
-    <h2 class="titel"></h2>
-    <p class="korttekst"></p>
-    <p class="typeogland"></p>
-    <p class="pris"></p>
-  </article>
-  
-</section>
-
+    <section id="popup">
+      <article>
+        <img src="" alt="" />
+        <div class="indhold">
+          <h2 class="navn"></h2>
+          <p class="korttekst"></p>
+          <p class="info"></p>
+          <p class="pris"></p>
+        </div>
+      </article>
+    </section>
 
     <script src="script.js"></script>
   </body>
