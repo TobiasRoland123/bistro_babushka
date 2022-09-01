@@ -133,8 +133,10 @@ img {
   align-items: center;
   overflow: scroll;
   scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
 }
 ::-webkit-scrollbar {
+  /* chrome*/
   display: none;
 }
 
